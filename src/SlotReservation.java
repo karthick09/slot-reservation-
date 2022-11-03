@@ -53,10 +53,9 @@ public class SlotReservation {
         if(status){
             calculateRent(sId);
             removeRenter(sId);
-            System.out.println("dfv");
         }
         else {
-            System.out.println("no");
+            System.out.println("renter not found");
         }
 
     }
