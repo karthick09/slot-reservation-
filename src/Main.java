@@ -51,8 +51,8 @@ public class Main {
                             manger.addPerson(person);
                         }
                         case 4 -> {
-                            Account account1 = new Account("karthick7", "abc123", AccountType.RENTER, AccountStatus.ACTIVE);
-                            Person person1 = new Person("karthick", "karthick@gmail.com", "9487856337", account1);
+                            String name = "karthick";
+                            Person person1 = Manger.getPerson(name);
                             manger.removePerson(person1);
                         }
                         default -> System.out.println("invalid choice ");
