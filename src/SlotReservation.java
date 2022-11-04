@@ -26,6 +26,7 @@ public class SlotReservation {
 
     public static void removeRenter(String sId){
         listOfRenter.remove(sId);
+        listOfDate.remove(sId);
     }
 
     public static void showSlots(){
